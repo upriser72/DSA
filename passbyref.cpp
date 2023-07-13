@@ -10,6 +10,7 @@ void something(int &num)
    cout<<num<<endl;
 
 }
+sample 
 
 void somestring(string &s)
 {
