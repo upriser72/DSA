@@ -23,7 +23,7 @@ int main()
    cout<<"The elements in the vector :";
    for(auto it=v.begin();it!=v.end();it++)
       cout<<*it<<" ";
-   cout<<"\nTe front element: "<<v.front();
+   cout<<"\nThe front element: "<<v.front();
    cout<<"\nThe last element: "<<v.back();
    cout<<"\nThe size of the vector: "<<v.size();
    cout<<"\nDelete element from end: "<<v[v.size()-1];
