@@ -2,6 +2,7 @@
   "cph.general.onceMaintainerMessage": false,
   "C_Cpp.errorSquiggles": "disabled",
   "files.associations": {
-    "vector": "cpp"
+    "vector": "cpp",
+    "iostream": "cpp"
   }
 }
