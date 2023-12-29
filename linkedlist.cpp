@@ -46,6 +46,28 @@ int checkIfPresent(Node* head,int val)
    }
    return 0;
 }
+Node* InsertBeginning(Node* head,int val)
+{
+   Node* temp=new Node(val);
+   temp->next=head;
+   head=temp;
+   return head;
+}
+
+Node *deleteLast(Node *head){
+    Node*temp=head;
+    if (head == NULL || head->next == NULL)
+        return NULL;
+    while(temp->next->next!=nullptr)
+    {
+        temp=temp->next;
+    }
+    
+    delete temp->next;
+    temp->next=nullptr;
+    return head;
+    
+}
 int main()
 {
    vector<int> arr={16,5,8,7};
@@ -64,5 +86,17 @@ int main()
    }
    cout<<endl;
    cout<< checkIfPresent(head,9);
+   cout<<endl;
+   
+   head=InsertBeginning(head,62);
+   Node* temporary=head;
+   while(temporary)
+   {
+      
+      cout<<temporary->data<<" ";
+      temporary= temporary->next;
+
+   }
+
    return 0;
 }
