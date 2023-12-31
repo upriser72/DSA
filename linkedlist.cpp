@@ -1,5 +1,6 @@
 #include<bits/stdc++.h>
 using namespace std;
+//making structure for node
 struct Node {
    public:
    int data;
@@ -9,7 +10,7 @@ struct Node {
    Node(int data1){
       data=data1;
       next=nullptr;
-      //hello
+      //hello world
    }
 };
 
