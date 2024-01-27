@@ -5,5 +5,6 @@
     "vector": "cpp",
     "iostream": "cpp",
     "list": "cpp"
-  }
+  },
+  "cmake.configureOnOpen": true
 }
