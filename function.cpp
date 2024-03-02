@@ -5,6 +5,7 @@ void printname( string name)
 {
    cout<<"hi "<<name;
 }
+
 int main()
 {
    string name;
